@@ -25,8 +25,13 @@
  
  */
 // Type the code below this line...
-
-
+var dayOfWeek: String? = "Monday"
+if dayOfWeek != nil {
+    let day = dayOfWeek!
+    print("The day is \(day)")
+} else {
+    print("No day was provided")
+}
 /*:
  
  Now, run the playground.
@@ -39,3 +44,4 @@
  
  */
 //: [Next](@next)
+// This code prints: "The day is Monday", without the Optional()

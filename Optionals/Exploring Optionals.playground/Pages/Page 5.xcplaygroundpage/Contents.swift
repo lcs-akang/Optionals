@@ -19,7 +19,12 @@
  
  */
 // Type the code below this line...
-
+var dayOfWeek: String? = "Monday"
+if dayOfWeek != nil {
+    print("The day is \(dayOfWeek)")
+} else {
+    print("No day was provided")
+}
 
 /*:
  
@@ -33,3 +38,5 @@
  
  */
 //: [Next](@next)
+// The first code example prints: No day was provided, which means the dayOfWeek was not nil?
+// The second code example prints: "The day is Optional("Monday") It is not what I expected, why does it say Optional()?

@@ -16,8 +16,8 @@
  What is the result?
  */
 // Type the code below this line
-var myName: String
-print(myName)
+// var myName: String
+// print(myName)
 /*:
  
  The debug area appeared at the bottom of your playground.
@@ -38,7 +38,8 @@ print(myName)
  
  */
 // Type the second code example below...
-
+var myName: String
+print(myName)
 
 /*:
  
@@ -56,3 +57,5 @@ print(myName)
  
  */
 //: [Next](@next)
+// The second code example just shows: "nil"
+// The first code example shows: "variable 'myName' used before being initialized

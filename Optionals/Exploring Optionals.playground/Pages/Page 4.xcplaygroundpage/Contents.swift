@@ -15,8 +15,13 @@
  
  */
 // Type the code below this line...
-
-
+var x: String?
+var y: String? = " "
+if x == y {
+    print("variables are equal")
+} else {
+    print("variables NOT equal")
+}
 /*:
  
  Is an empty string the same as a *nil* value?
@@ -25,3 +30,4 @@
  
  */
 //: [Next](@next)
+// It shows: "variables NOT equal" this means nil and an empty string are not the same value

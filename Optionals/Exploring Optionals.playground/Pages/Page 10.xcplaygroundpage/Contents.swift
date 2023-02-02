@@ -11,6 +11,9 @@
  
  */
 // Type the code below this line...
+var x: Int = 0
+var y: Int
 
-
+x * y
 //: [Next](@next)
+// Prediction: it will not work because y is not given a value
